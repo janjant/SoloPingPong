@@ -22,20 +22,18 @@ public class Zoga {
 		if(this.x + 1 > igra.getWidth() - PREMER) {  //blokira zogo na desnem robu okvira
 			this.xPremik = -1;
 		}
-		
 		if(this.y + 1 > igra.getHeight() - PREMER) {  //blokira zogo na dnu okvira
 			igra.konecIgre();
 		}
-		
 		if(this.x == 0) {
 			this.xPremik = 1;
 		}
-		
 		if(this.y ==0) {
 			this.yPremik = 1;
 		}
 		if(this.trkZLoparjem()) {
 			this.yPremik = -1;
+			igra.povecajTocke();
 		}
 		
 		this.x += xPremik;
