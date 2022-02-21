@@ -50,7 +50,7 @@ public class Igra extends JPanel {
 
 		zoga.narisi(g2d);
 		
-		g2d.setColor(Color.BLUE);
+		g2d.setColor(Color.PINK);
 		lopar.narisi(g2d);
 
 		g2d.setColor(Color.RED);
