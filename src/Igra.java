@@ -50,10 +50,10 @@ public class Igra extends JPanel {
 
 		zoga.narisi(g2d);
 		
-		g2d.setColor(Color.PINK);
+		g2d.setColor(Color.BLUE);
 		lopar.narisi(g2d);
 
-		g2d.setColor(Color.RED);
+		g2d.setColor(Color.PINK);
 		g2d.setFont(new Font("Verdana", Font.BOLD, 30));
 		g2d.drawString(String.valueOf(this.tocke), 10, 30);
 	}
